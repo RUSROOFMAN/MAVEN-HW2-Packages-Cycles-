@@ -10,7 +10,7 @@ public class SrvcCalculate {
                 money = money + income - expenses;
             } else {
                 int vacMoneyBalance = money - expenses;
-                int vacMoney = vacMoneyBalance - ((money - expenses) / 3);
+                int vacMoney = vacMoneyBalance - (money - expenses) / 3;
                 System.out.println(" Месяц " + month + " Денег " + money + " Буду отдыхать." + "Потратил" + expenses + ",затем ещё  - " + money);
                 money = (money - expenses) / 3;
                 countVacation++;
